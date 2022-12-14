@@ -1,0 +1,462 @@
+		*{
+		text-align: center;
+		}
+		.flex{
+		padding: 0 10px
+		}
+		/*-----finish common one----*/
+		.row1{
+		display: flex;
+		background-color: yellow;
+		flex-direction: row;
+		}
+		.row1 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column1{
+		width: 100%;
+		}
+		.box1{
+		border: 2px solid black;
+		height: 100px;
+		width: 100px;
+		padding: 41px;
+		} 
+		/*-----finish one----*/
+		.row2{
+		display: flex;
+		background-color: yellow;
+		flex-direction: column;
+		}
+		.row2 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column2{
+		width: 100%;
+		}
+		.box2{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row3{
+		display: flex;
+		background-color: yellow;
+		flex-direction: row-reverse;
+		}
+		.row3 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column3{
+		width: 100%;
+		}
+		.box3{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row4{
+		display: flex;
+		background-color: yellow;
+		flex-direction: column-reverse;
+		}
+		.row4 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column4{
+		width: 100%;
+		}
+		.box4{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row5{
+		display: flex;
+		background-color: yellow;
+		}
+		.frist {
+		width: 100px;
+		background-color: red;
+		order:1;
+		}
+		 .second {
+		width: 100px;
+		background-color: red;
+		order:3;
+		}
+		.third {
+		width: 100px;
+		background-color: red;
+		order:2;
+		}
+		.column5{
+		width: 100%;
+		}
+		.box5{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row5{
+		display: flex;
+		background-color: yellow;
+		}
+		.frist {
+		width: 100px;
+		background-color: red;
+		order:1;
+		}
+		 .second {
+		width: 100px;
+		background-color: red;
+		order:3;
+		}
+		.third {
+		width: 100px;
+		background-color: red;
+		order:2;
+		}
+		.column5{
+		width: 100%;
+		}
+		.box5{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row6{
+		display: flex;
+		background-color: yellow;
+		}
+		.frist1 {
+		width: 100px;
+		background-color: red;
+		flex-grow:0.5;
+		}
+		 .second1 {
+		width: 100px;
+		background-color: red;
+		}
+		.third1 {
+		width: 100px;
+		background-color: red;
+		}
+		.column6{
+		width: 100%;
+		}
+		.box6{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row7{
+		display: flex;
+		background-color: yellow;
+		}
+		.frist2 {
+		width: 100px;
+		background-color: red;
+		}
+		 .second2 {
+		width: 100px;
+		background-color: red;
+		flex-shrink: 0;
+		}
+		.third2 {
+		width: 100px;
+		background-color: red;
+		}
+		.column7{
+		width: 100%;
+		}
+		.box7{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row8{
+		display: flex;
+		background-color: yellow;
+		height:200px;
+		}
+		.frist3 {
+		width: 100px;
+		background-color: red;
+		height: 100px;
+		}
+		.second3 {
+		width: 100px;
+		background-color: red;
+		align-self: flex-end;
+		}
+		.third3 {
+		width: 100px;
+		background-color: red;
+		height: 100px;
+		}
+		.column8{
+		width: 100%;
+		}
+		.box8{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row9{
+		display: flex;
+		background-color: yellow;
+		align-items:stretch;
+		height: 200px;
+		}
+		.frist4 {
+		width: 100px;
+		background-color: red;
+	
+		}
+		.second4 {
+        width:100px;
+		background-color: red;
+		
+		}
+		.third4 {
+		width: 100px;
+		background-color: red;
+		
+		}
+		.column9{
+		width: 100%;
+		}
+		.box91{
+		border: 2px solid black;
+		height: 200px;
+		}
+		.box92{
+		border: 2px solid black;
+		height: 200px;
+		}
+		.box93{
+		border: 2px solid black;
+		height: 200px;
+		}
+		/*-----finish one----*/
+		.row10{
+		display: flex;
+		background-color: yellow;
+		justify-content: flex-start;
+		}
+		.row10 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column10{
+		width: 100%;
+		}
+		.box10{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row10{
+		display: flex;
+		background-color: yellow;
+		justify-content: flex-start;
+		}
+		.row10 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column10{
+		width: 100%;
+		}
+		.box10{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row11{
+		display: flex;
+		background-color: yellow;
+		justify-content: flex-end;
+		}
+		.row11 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column11{
+		width: 100%;
+		}
+		.box11{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row12{
+		display: flex;
+		background-color: yellow;
+		justify-content: space-around;
+		}
+		.row12 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column12{
+		width: 100%;
+		}
+		.box12{
+		border: 2px solid black;
+		height: 100px;
+		}
+		/*-----finish one----*/
+		.row13{
+		display: flex;
+		background-color: yellow;
+		justify-content: space-between;
+		}
+		.row13 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column13{
+		width: 100%;
+		}
+		.box13{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row14{
+		display: flex;
+		background-color: yellow;
+		justify-content: center;
+		}
+		.row14 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column14{
+		width: 100%;
+		}
+		.box14{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row15{
+		display: flex;
+		background-color: yellow;
+		justify-content: space-evenly;
+		}
+		.row15 > div {
+		width: 100px;
+		background-color: red;
+		}
+		.column15{
+		width: 200px;
+		}
+		.box15{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row16{
+		display: flex;
+		background-color: yellow;
+		flex-wrap: wrap;
+		gap: 14px 14px;
+		}
+		.row16 > div {
+		width: 400px;
+		background-color: red;
+		}
+		.column16{
+		width: 200px;
+		}
+		.box16{
+		border: 2px solid black;
+		height: 100px;
+		} 
+		/*-----finish one----*/
+		.row17{
+		display: flex;
+		background-color: yellow;
+		flex-wrap: wrap-reverse;
+		gap: 14px 14px;
+		}
+		.column17{
+		width: 200px;
+		}
+		/*-----finish one----*/
+		.row18{
+		display: flex;
+		background-color: yellow;
+		align-items: center;
+		height:500px;
+		}
+		/*-----finish one----*/
+		.row19{
+		display: flex;
+		background-color: yellow;
+		align-items: flex-start;
+		
+		height:500px;
+		}
+		/*-----finish one----*/
+		.row20{
+		display: flex;
+		background-color: yellow;
+		align-items: flex-end;
+		height:500px; 
+		}
+		/*-----finish one----*/
+		.row21{
+		display: flex;
+		background-color: yellow;
+		align-items: stretch;
+		height:500px;
+		}
+		/*-----finish one----*/
+		.row22{
+		display: flex;
+		background-color: yellow;
+		align-content: space-around ;
+		height:500px;
+		flex-wrap: wrap;
+		}
+		/*-----finish one----*/
+		.row23{
+		display: flex;
+		background-color: yellow;
+		align-content: space-between;
+		height:500px;
+		flex-wrap: wrap;
+		}
+		/*-----finish one----*/
+		.row24{
+		display: flex;
+		background-color: yellow;
+		align-content: space-evenly;
+		height:500px;
+		flex-wrap: wrap;
+		}
+		/*-----finish one----*/
+		.row25{
+		display: flex;
+		background-color: yellow;
+		align-content: center;
+		height:500px;
+		flex-wrap: wrap;
+		}
+		/*-----finish one----*/
+		.row26{
+		display: flex;
+		background-color: yellow;
+		align-items: baseline;
+		height:500px;
+		flex-wrap: wrap;
+		}
+		
